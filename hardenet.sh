@@ -82,3 +82,5 @@ net.ipv4.conf.all.send_redirects = 0
 net.ipv4.conf.default.send_redirects = 0
 net.ipv4.icmp_echo_ignore_all = 1
 net.ipv6.icmp.echo_ignore_all = 1" | sudo tee /etc/sysctl.d/99-sysctl.conf
+
+sudo sysctl --system
